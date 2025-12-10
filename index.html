@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>Strix</title>
+        <link rel="stylesheet" href="css/style.css">
+    
+        <style>
+            table, th, td {
+            border: 1px solid black;
+            }
+        </style>
+
+    </head>
+    
+    <body>
+        
+        <div class="text-box">
+
+            <h1>Home</h1>
+            
+            <h2>Defining a HyperLink</h2>
+
+            <p>Here are the links to different pages of this website</p>
+            
+            <a href="index.html">Home</a>
+            <a href="pages/about/about.html">About</a>
+            <a href="pages/contacts/contacts.html">Contacts</a>
+
+            <!--nav>Menubar</nav-->
+
+            <h2>The abbr element</h2>
+            
+            <p>The <abbr title="World Wildlife Fund">WWF</abbr> is one of the most prominent international charities,<br> 
+                WWF works on a vast scale to protect endangered species and their habitats globally.</p>
+
+            <h2>The address element</h2>
+
+            <address>
+                Written by <a href="hami.afsar.nafis@gmail.com">Hami Afsar Nafis</a>.<br> 
+                Visit us at: Cumilla, Bangladesh<br>
+                Strix.com<br>
+                Box 3500, Cumilla<br>
+                BD
+            </address>
+
+            <h2>The map and area elements</h2>
+
+            <img src="img/cute-owl.jpg" alt="Cute Owl Picture" usemap="#workmap" width="400">
+
+            <map name="workmap">
+                <area shape="rect" coords="1,1,400,300" alt="Cute Owl Picture" href="https://en.wikipedia.org/wiki/Owl">
+            </map>
+
+            <h2>The article element</h2>
+
+            <article>
+                <h3>Snowy Owl</h3>
+                <p>The regal <b>Snowy Owl</b> is one of the few birds that can get even non-birders to come out for a look.<br> 
+                    This largest (by weight) North American owl shows up irregularly in winter to hunt in windswept fields or dunes, a pale shape with catlike yellow eyes.<br> 
+                    They spend summers far north of the Arctic Circle hunting lemmings, ptarmigan, and other prey in 24-hour daylight.<br>
+                    In years of lemming population booms they can raise double or triple the usual number of young.</p>
+                
+                <img src="img/snowy-owl.jpg" alt="Snowy Owl Picture" width="400">
+            </article>
+
+            <article>
+                <h3>Eurasian Eagle-Owl</h3>
+                <p><b>Eurasian Eagle-owls</b> combine fast and powerful flights with shallow wing beats and long, fast glides.<br>
+                    They also soar on updrafts, displaying a type of flight similar to that of soaring hawks like the Red-tailed Hawk.<br>
+                    Eurasian Eagle-owls are among the world's largest owls.<br>
+                    Their pumpkin orange eyes and feathery ear tufts make them one of the most striking owls in the world.</p>
+                
+                <img src="img/eurasian-eagle-owl.jpg" alt="Eurasian Eagle-Owl Picture" width="400">
+            </article>
+
+            <article>
+                <h3>Barn owl</h3>
+                <p>Ghostly pale and normally strictly nocturnal, American <b>Barn Owls</b> are silent predators of the night world.<br>
+                    Lanky, with a whitish face, chest, and belly, and buffy upperparts, this owl roosts in hidden, quiet places during the day.<br>
+                    By night, they hunt on buoyant wingbeats in open fields and meadows. You can find them by listening for their eerie, raspy calls,<br>
+                    quite unlike the hoots of other owls.</p>
+
+                <img src="img/barn-owl.jpg" alt="Barn owl Picture" width="400">
+            </article>
+
+            <aside>
+            <h4>Nocturnal Animals</h4>
+            
+            <p>Nocturnal animals are creatures active at night, sleeping during the day, and possess special adaptations like enhanced senses (sight, hearing, smell)<br>
+                and features like large eyes with reflective tapetum for low-light vision, silent flight (owls), or echolocation (bats) to hunt, find mates,<br>
+                and avoid predators/heat, with common examples including <b>owls</b>, bats, raccoons, foxes, and many insects like moths.<br>
+                They thrive at night due to reduced competition and cooler temperatures, using evolutionary advantages to navigate darkness effectively.</p>
+            </aside>
+        
+            <h2>The audio element</h2>
+
+            <p>Click on the play button to play a sound of an owl hooting:</p>
+
+            <audio controls>
+                <source src="audio/owl-hooting.mp3" type="audio/mp3">
+            </audio>
+            
+            <h2>The bdi element</h2>
+
+            <p>In the example below, usernames are shown along with the number of points in a Owl quiz.</p>
+
+            <ul>
+                <li>Tasin <bdi>طاسين</bdi>: 60 points</li>
+                <li>Mehraz <bdi>مهرز</bdi>: 80 points</li>
+                <li>Nafis <bdi>نفيس</bdi>: 90 points</li>
+            </ul>
+        
+            <h2>The bdo element</h2>
+
+            <p>Nocturnal animals are creatures active at night.</p>  
+            <p><bdo dir="rtl">Nocturnal animals are creatures active at night.</bdo></p>  
+
+            <h2>The blockquote element</h2>
+
+            <p>Here is a quote from WWF's website:</p>
+
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization,<br> 
+                WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+            </blockquote>
+
+            <h2>The button Element</h2>
+
+            <p>Click the button for a friendly advice</p>
+
+            <button type="button" onclick="alert('Owls are cute, yeah! But try not to feed the wild ones, trust me! 😂')">Click Me!</button>
+
+            <h2>Canvas</h2>
+
+            <canvas id="myCanvas" width="300" height="150" style="border:5px solid grey"></canvas>
+
+            <p>Canvas under construction! ⚠️</p>
+
+            <h2>The caption element</h2>
+
+            <table>
+                <caption>Monthly Savings</caption>
+                    <tr>
+                        <th>Month</th>
+                        <th>Savings</th>
+                    </tr>
+                    <tr>
+                        <td>January</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>$50</td>
+                    </tr>
+            </table>
+
+            <h2>The cite element</h2>
+
+            <img src="img/owl-painting.jpg" width="400" alt="Owl Painting">
+            
+            <p><cite>Owl Painting</cite> by Pavel Danilyuk. Painted in Jan 6, 2021.</p>
+        
+            <h1>The code element</h1>
+
+            <p>This here 👉 <code>button</code> is a clickable button, why not give it a try?</p>
+
+            <h2>The col & colgroup element</h2>
+
+            <table>
+                <colgroup>
+                    <col span="2" style="background-color:black">
+                    <col style="background-color:black">
+                </colgroup>
+                <tr>
+                    <th>ISBN</th>
+                    <th>Title</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>3476896</td>
+                    <td>Bird Feed</td>
+                    <td>$53</td>
+                </tr>
+                <tr>
+                    <td>5869207</td>
+                    <td>Bird Stand</td>
+                    <td>$49</td>
+                </tr>
+            </table>
+
+            <h2>The data element</h2>
+
+            <p>The following example displays what do owls usually eat:</p>
+
+            <ul>
+                <li><data value="21053">Rodents</data></li>
+                <li><data value="21054">Reptiles</data></li>
+                <li><data value="21055">Amphibians</data></li>
+            </ul>
+        
+            <h2>The datalist element</h2>
+
+            <form action="/action_page.php" method="get">
+                <label for="browser">Choose your browser from the list:</label>
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+                <input type="submit">
+            </form>
+
+            <p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+        
+            <h2>The dl, dd, and dt elements</h2>
+
+            <p>These three elements are used to create a description list:</p>
+
+            <dl>
+                <dt>Coffee</dt>
+                <dd>Black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>White cold drink</dd>
+            </dl>
+        
+            <h2>The del element</h2>
+
+            <p>My favorite owl is <del>Snowy Owl</del> <ins>Eurasian Eagle-Owl</ins>!</p>
+
+            <h2>The details element</h2>
+
+            <details>
+                <summary>Diurnal Owls</summary>
+                <p>While most owls are nocturnal (night hunters) or crepuscular (dawn/dusk hunters),<br> 
+                    some species are active during the day (diurnal), like the Burrowing Owl, Northern Hawk Owl,<br> 
+                    and Northern Pygmy Owl, with the Snowy Owl also hunting in daylight due to Arctic conditions,<br> 
+                    making them "day owls" adapted for brighter conditions. </p>
+            </details>
+        
+            <h2>The dfn element</h2>
+
+            <p><dfn>Nocturnal Animals</dfn> are creatures active primarily at night and sleep during the day,<br>
+                a survival strategy to avoid predators, heat, or to find food, possessing adaptations like large eyes,<br>
+                excellent hearing, and strong senses of smell to navigate and hunt in low light.</p>
+        
+            <h2>The dialog element</h2>
+
+            <p>“I think I'm a tiny bit like Harry 'cos I'd like to have an owl. <br>
+                Yeah, that's the tiny bit, actually.”<br>
+                ― Daniel Radcliffe</p>
+
+            <p>“Like some winter animal the moon licks the salt of your hand,<br>
+                Yet still your hair foams violet as a lilac tree<br>
+                From which a small wood-owl calls.”<br>
+                ― Johannes Bobrowski</p>
+
+            <dialog open>This is an open dialog window</dialog>
+
+            <p>“Owls hoot in B flat, cuckoos in D, but the water ousel sings in the voice of the stream. <br>
+                She builds her nest back of the waterfalls so the water is a lullaby to the little ones. <br>
+                Must be where they learn it.”<br>
+                ― Karen Joy Fowler, Sarah Canary</p>
+
+            <p>“The inauspiciousness of the owl is nothing but the inauspiciousness of <br>
+                the man who thinks that owl is inauspicious!”<br>
+                ― Mehmet Murat ildan</p>
+
+            <h2>The em element</h2>
+
+            <p>Harry <em>loved</em> his owl named 'Hedwig'!</p>
+
+            <p>Hedwig's <em>demise</em> hurt Harry badly.</p>
+        
+            <h2>The embed element</h2>
+
+            <embed type="image/jpg" src="img/harry-potter-hedwig.jpg" width="400">
+            
+            <p>Here's a lovely picture of Harry Potter with Hedwig</p>
+
+            <embed type="video/mp4" src="vid/snowy-owl-fhd-video.mp4">
+
+            <h2>The fieldset element</h2>
+
+            <form action="/action_page.php">
+                <fieldset>
+                    <legend>Personalia:</legend>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+
+            <h2>The figure and figcaption element</h2>
+            
+            <figure>
+                <img src="img/owl-in-a-forest.jpg" alt="Brown Owl in a Forest" style="width:100%">
+                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+            </figure>
+
+            <h2>The footer element</h2>
+
+            <footer>
+                <p>Author: Hami Afsar Nafis<br>
+                    <a href="mailto:hami.afsar.nafis@gmail.com">hami.afsar.nafis@gmail.com</a></p>
+            </footer>
+
+            <h2>The form element</h2>
+
+            <form action="/action_page.php">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+
+            <p>Click the "Submit" button and the form-data will be sent to a page on the 
+            server.</p>
+
+            <article>
+                <header>
+                    <h2>Owl Encyclopedia</h2>
+                    <p>Posted by Hami Afsar Nafis</p>
+                    <p>A website designed to teach people about Owls</p>
+                </header>
+            </article>
+        
+            <h3>Quick peek at our sponsor "HTML Trainers. <br>
+                Leading online html tutors training people who wish to learn a new skill. <br>
+                More information down below about html...</h3>
+            
+            <h2>The Main Languages of the Web</h2>
+
+            <p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, <br>
+                and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+            <hr>
+
+            <p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. <br>
+                CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+            <hr>
+
+            <p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values.<br>
+                JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+            <h2>The i element</h2>
+
+            <p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+
+            <p>The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
+
+            <h2>The iframe element</h2>
+
+            <iframe src="pages/W3Schools Online Web Tutorials.html" title="W3Schools Free Online Web Tutorials" style="width:100%">
+            </iframe>
+        
+        </div>
+    </body>
+</html>
+
+
